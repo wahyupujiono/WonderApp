@@ -37,6 +37,60 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
+        ImageView showGuide = (ImageView) findViewById(R.id.guide);
+
+        showGuide.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Coming Soon!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        ImageView showExercise = (ImageView) findViewById(R.id.porsi_latihan);
+
+        showExercise.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Coming Soon!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        ImageView showPlace = (ImageView) findViewById(R.id.rekomendasi_tempat);
+
+        showPlace.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Coming Soon!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        ImageView showBiodata = (ImageView) findViewById(R.id.data_pengguna);
+
+        showBiodata.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Coming Soon!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        ImageView showWeather = (ImageView) findViewById(R.id.weather);
+
+        showWeather.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Coming Soon!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        ImageView showSettings = (ImageView) findViewById(R.id.setting);
+
+        showSettings.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Coming Soon!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
         ImageView showVersion = (ImageView) findViewById(R.id.logo);
 
         showVersion.setOnClickListener(new View.OnClickListener(){
