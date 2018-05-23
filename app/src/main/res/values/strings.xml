@@ -11,6 +11,11 @@
     <string name="nav_home">Home</string>
     <string name="nav_alerts">Reminder</string>
     <string name="nav_notes">Notes</string>
+    <string name="nav_guide">Guide</string>
+    <string name="nav_exercise">Exercise</string>
+    <string name="nav_place">Place</string>
+    <string name="nav_biodata">Biodata</string>
+    <string name="nav_weather">Weather</string>
     <string name="nav_settings">Settings</string>
 
     <!-- FAB labels -->

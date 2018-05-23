@@ -84,17 +84,37 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, HomeActivity.class);
             startActivity(intent);
             break;
-          case R.id.nav_alerts:
-            mDrawerLayout.closeDrawers();
-            Toast.makeText(getApplicationContext(), R.string.show_alerts_toast,
-                Toast.LENGTH_SHORT).show();
-            reloadReminders(ReminderType.ALERT);
-            break;
           case R.id.nav_notes:
             mDrawerLayout.closeDrawers();
             Toast.makeText(getApplicationContext(), R.string.show_notes_toast,
                 Toast.LENGTH_SHORT).show();
             reloadReminders(ReminderType.NOTE);
+            break;
+          case R.id.nav_alerts:
+            mDrawerLayout.closeDrawers();
+            Toast.makeText(getApplicationContext(), R.string.show_alerts_toast,
+                    Toast.LENGTH_SHORT).show();
+            reloadReminders(ReminderType.ALERT);
+            break;
+          case R.id.nav_guide:
+            mDrawerLayout.closeDrawers();
+            Toast.makeText(getApplicationContext(), "Coming soon!", Toast.LENGTH_SHORT).show();;
+            break;
+          case R.id.nav_exercise:
+            mDrawerLayout.closeDrawers();
+            Toast.makeText(getApplicationContext(), "Coming soon!", Toast.LENGTH_SHORT).show();
+            break;
+          case R.id.nav_place:
+            mDrawerLayout.closeDrawers();
+            Toast.makeText(getApplicationContext(), "Coming soon!", Toast.LENGTH_SHORT).show();
+            break;
+          case R.id.nav_biodata:
+            mDrawerLayout.closeDrawers();
+            Toast.makeText(getApplicationContext(), "Coming soon!", Toast.LENGTH_SHORT).show();
+            break;
+          case R.id.nav_weather:
+            mDrawerLayout.closeDrawers();
+            Toast.makeText(getApplicationContext(), "Coming soon!", Toast.LENGTH_SHORT).show();
             break;
           case R.id.nav_settings:
             mDrawerLayout.closeDrawers();

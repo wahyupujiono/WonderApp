@@ -175,7 +175,7 @@
                 android:layout_gravity="center"
                 android:gravity="center_horizontal"
                 android:layout_weight="1"
-                android:text="Exercises" />
+                android:text="Exercise" />
 
             <ImageView
                 android:id="@+id/data_pengguna"
@@ -204,7 +204,7 @@
                 android:layout_margin="16dp"
                 android:layout_weight="1"
                 android:contentDescription="Logo"
-                android:onClick="logo"
+                android:onClick="MainActivity"
                 android:src="@drawable/logo" />
 
             <TextView

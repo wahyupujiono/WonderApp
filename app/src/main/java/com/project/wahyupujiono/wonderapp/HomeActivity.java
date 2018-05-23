@@ -36,9 +36,7 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
 
-    public void logo(View view) {
         ImageView showVersion = (ImageView) findViewById(R.id.logo);
 
         showVersion.setOnClickListener(new View.OnClickListener(){
@@ -48,4 +46,5 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
     }
+
 }
